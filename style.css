@@ -1,0 +1,153 @@
+/* FONT */
+.andika-regular {
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .andika-bold {
+    font-family: "Andika", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .andika-regular-italic {
+    font-family: "Andika", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .andika-bold-italic {
+    font-family: "Andika", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+/* TAGLINE */
+
+#tagline {
+    border-top: 4px solid;
+    padding: 0.3em 0;
+    border-bottom: 2px solid;
+    text-align: center;
+    clear: both;
+    font-variant: small-caps;
+    letter-spacing: 0.4em;
+    font-size: 1.37em;
+    margin-bottom: 1em;
+}
+
+/* BODY */
+body {
+    font-family: "Andika", sans-serif;
+}
+#wrap {
+    width: 640px;
+    margin: 20px auto;
+    background: hsla(150, 100%, .0);
+}
+ h1 {
+    margin-top: 2.0em;
+    text-transform: uppercase;
+    font-size: 1.34em;
+    margin-bottom: 0.8em;
+ }
+
+ h1 > span {
+    display: block;
+    float: left;
+ }
+
+/* TITLES */
+
+#weights {
+    margin-bottom: 0.8em;
+}
+#weights:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+}
+#weights div {
+    width: 800px;
+    float: left;
+}
+#info {
+    margin-right: 20px;
+}
+#weights h2 {
+    font-size: 2.4em;
+    font-weight: bold;
+    letter-spacing: -0.015em;
+    border-bottom: 2px solid;
+    margin-bottom: 0.2em;
+    padding-top: 0.15em;
+}
+#weights p {
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+    line-height: 1.3em;
+}
+
+/* CHARACTERS */ 
+
+#chars {
+    border-bottom: 2px solid;
+  }
+  
+  #chars span {
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  
+  .drawer {
+    padding: 12px 0; 
+  }
+  
+  #reg {
+    border-top: 2px solid;
+  }
+  #reg span {
+    width: 49px;
+    height: 49px;
+    line-height: 50px;
+    font-size: 2.7em;
+  }
+  
+  #ital div, #bold div {
+    width: 650px;
+    float: left;
+  }
+  
+  #ital span, #bold span {
+    width: 49px;
+    height: 49px;
+    line-height: 50px;
+    font-size: 2.7em;
+  }
+  
+  #ital { font-style: italic; }
+  #bold { font-weight: bold; }
+  #ital, #bold { border-top: 2px solid; }
+  
+  #bold_ital { border-top: 2px solid; }
+  #bold_ital span {
+    width: 49px;
+    height: 49px;
+    font-size: 2.7em;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .uppercase { text-transform: uppercase; }
+  .lowercase { text-transform: lowercase; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: -0.1;
+    clear: both;
+    visibility: hidden;
+    }
